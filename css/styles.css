@@ -1,5 +1,5 @@
 body {
-    font-family: 'Montserrat';
+    font-family: "Montserrat";
     text-align: center;
 
 }
@@ -10,7 +10,7 @@ h3,
 h4,
 h5,
 h6 {
-    font-family: 'Montserrat-Bold';
+    font-family: "Montserrat-Bold";
 }
 
 p {
@@ -20,7 +20,7 @@ p {
 /* Headings */
 
 .big-heading {
-    font-family: 'Montserrat-Black';
+    font-family: "Montserrat-Black";
     font-size: 3.5rem;
     font-weight: 900;
     line-height: 1.5;
@@ -96,9 +96,6 @@ p {
 /* Feature Section */
 
 #features {
-    align-content: center;
-    margin-bottom: 100px;
-    z-index: 1;
     position: relative;
 }
 
@@ -106,17 +103,17 @@ p {
     font-size: 1.5rem;
 }
 
-.feature-img {
-    margin-bottom: 1rem;
-    width: 50px;
-    height: 50px;
-
-
+.feature-box {
+    padding: 4.5%;
 }
 
-.feature-img:hover {
-    color: #ff4c6f;
+.icon {
+    color: #ef8172;
+    margin-bottom: 1rem;
+}
 
+.icon:hover {
+    color: #ff4c68;
 }
 
 /* Testimonials */
